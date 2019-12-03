@@ -1,6 +1,7 @@
 var express = require("express");
 var routes = express();
-//var mysql = require("mysql");
+//
+var mysql = require("mysql");
 var connection = require("../db/database");
 
 
